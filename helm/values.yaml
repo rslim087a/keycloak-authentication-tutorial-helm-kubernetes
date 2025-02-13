@@ -1,0 +1,42 @@
+# Global PostgreSQL settings
+# - These settings are used by both PostgreSQL and Keycloak
+# - Configures the main database connection details
+global:
+  postgresql:
+    auth:
+      username: bn_keycloak          # Bitnami's default PostgreSQL user
+      password: bn_keycloak          # Database password
+      database: bitnami_keycloak     # Database name
+
+# Keycloak Admin User Configuration
+# - Creates the initial admin user for Keycloak's admin console
+auth:
+  adminUser: admin
+  adminPassword: admin
+
+# PostgreSQL Specific Configuration
+# - Enables and configures the bundled PostgreSQL instance
+# - Must match the global settings above
+postgresql:
+  enabled: true                      # Deploy PostgreSQL as part of the release
+  auth:
+    username: bn_keycloak
+    password: bn_keycloak
+    database: bitnami_keycloak
+
+# Kubernetes Service Configuration
+# - Exposes Keycloak to the cluster and outside world
+# - NodePort makes it accessible via localhost:30080
+service:
+  type: NodePort
+  nodePorts:
+    http: 30080
+
+# Additional Keycloak Environment Variables
+# - Configures Keycloak for development/testing
+# - Disables strict hostname checking and enables HTTP
+extraEnvVars:
+  - name: KC_HOSTNAME_STRICT
+    value: "false"
+  - name: KC_HTTP_ENABLED
+    value: "true"
