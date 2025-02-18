@@ -1,6 +1,6 @@
 # Keycloak Authentication Tutorial (Helm Kubernetes)
 
-This repo contains all the code needed to follow along with our **[YouTube Tutorial](https://link-here)**
+This repo contains all the code needed to follow along with our **[YouTube Tutorial](https://youtu.be/YNBCi5tKxUA)**
 
 ## Tutorial Resources
 - Set Up Kubernetes Cluster with Docker Desktop: [Kubernetes Cluster Setup](https://kubernetestraining.io/blog/set-up-a-local-kubernetes-cluster-with-docker-desktop)
