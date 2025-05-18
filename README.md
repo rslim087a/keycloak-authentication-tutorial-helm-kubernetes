@@ -10,4 +10,4 @@ This repo contains all the code needed to follow along with our **[YouTube Tutor
 
 ## Become a Cloud and DevOps Engineer
 
-Visit https://rayanslim.com
+Learn every tool that matters: https://rayanslim.com
