@@ -4,7 +4,7 @@ This repo contains all the code needed to follow along with our **[YouTube Tutor
 
 ## Tutorial Resources
 - Set Up Kubernetes Cluster with Docker Desktop: [Kubernetes Cluster Setup](https://youtu.be/IBkU4dghY0Y)
-- Install Helm on Mac and Windows: [Install Helm](https://kubernetestraining.io/blog/installing-helm-on-mac-and-windows)
+- Install Helm on Mac and Windows: [Install Helm](https://rayanslim.com/course/prometheus-grafana-monitoring-course/helm-installation)
 - Helm Repository: [bitnami helm repo](https://charts.bitnami.com/bitnami)
 - Postman Download: [Download Postman](https://www.postman.com/downloads/)
 
