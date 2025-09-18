@@ -10,7 +10,7 @@ If you're following this tutorial after September 2025, **adjust** the command s
 helm install keycloak bitnami/keycloak --version 24.4.9 -n keycloak --create-namespace -f helm/values.yaml
 ```
 
-to
+### **to**
 
 ```bash
 helm install keycloak bitnami/keycloak --version 24.4.9 -n keycloak --create-namespace -f helm/values.yaml --set image.repository=bitnamilegacy/keycloak --set postgresql.image.repository=bitnamilegacy/postgresql --set global.security.allowInsecureImages=true
