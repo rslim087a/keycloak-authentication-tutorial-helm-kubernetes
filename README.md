@@ -1,7 +1,3 @@
-# Keycloak Authentication Tutorial (Helm Kubernetes)
-
-This repo contains all the code needed to follow along with our **[YouTube Tutorial](https://youtu.be/YNBCi5tKxUA)**
-
 # ⚠️⚠️⚠️ WARNING
 
 If you're following this tutorial after September 2025, **adjust** the command shown at timestamp 6:22 of the Youtube Video from:
