@@ -19,10 +19,10 @@ The bitnami keycloak image is being blocked by a paywall, so using the first com
 
 ## Tutorial Resources
 - Set Up Kubernetes Cluster with Docker Desktop: [Kubernetes Cluster Setup](https://youtu.be/IBkU4dghY0Y)
-- Install Helm on Mac and Windows: [Install Helm](https://rayanslim.com/course/prometheus-grafana-monitoring-course/helm-installation)
+- Install Helm on Mac and Windows: [Install Helm](https://rslim087a.github.io/rayanslim/lesson.html?course=prometheus-grafana-monitoring-course&lesson=helm-installation)
 - Helm Repository: [bitnami helm repo](https://charts.bitnami.com/bitnami)
 - Postman Download: [Download Postman](https://www.postman.com/downloads/)
 
 ## Become a Cloud and DevOps Engineer
 
-Learn every tool that matters: https://rayanslim.com
+Learn every tool that matters: [https://rslim087a.github.io/rayanslim](https://rslim087a.github.io/rayanslim)
